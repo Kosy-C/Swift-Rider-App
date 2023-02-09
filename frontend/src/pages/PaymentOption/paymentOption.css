@@ -1,0 +1,80 @@
+/* .method-payment-div{
+    position: absolute;
+     margin-top: 10em;   
+    background-color: #E5E5E5;
+    width: 50%;
+    height: 65%;
+    
+}
+
+.choose-method {
+    font-size: 18px;
+    margin-left: 7em;
+    display: inline;
+}
+
+.back {
+  display: inline;
+    margin-left: 0.5em;
+    font-weight: 5;
+}
+
+.options {
+    margin-top: 2em;
+}
+
+.icon{
+    margin-left: 5em;
+}
+
+.bottom-border {
+    background-color: rgb(230, 230, 230);
+    height: 2px;
+    width: 85%;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+.card-icon {
+    height: 6em;
+    width: 6em;
+    margin-top: 3em;
+    margin-left: 19em;
+    align-self: center;
+}
+
+.choose {
+    font-size: 20px;
+    margin-left: 12em;
+    margin-top: 1em;
+}
+
+.card-option{
+    background-color: #C4C4C4;
+    height: 3em;
+    width: 20em;
+    margin-top: 3em;
+    text-decoration: none;
+    border-radius: 40em;
+}
+
+.cash-option{
+    background-color: #C4C4C4;
+    height: 3em;
+    width: 20em;
+    margin-top: 3em;
+    text-decoration: none;
+    border-radius: 40em;
+}
+
+.card:hover{
+    background-color:#E02B45
+}
+
+.card-div{
+    margin-top: -2.5rem;
+}
+
+.cash-div{
+    margin-top: -3rem;
+} */
