@@ -1,11 +1,11 @@
 .demo_navbar  {
   height: 80px;
-  background: #FFFFFF;
+  background: #ffffffa5;
   z-index: 5;
   top: 0;
   position: fixed!important;
   width: 100vw;
-  border-bottom: #ef971b 1px solid;
+  /* border-bottom: #ef971b 1px solid; */
 }
 .demo_container {
   max-width: 100%;
@@ -16,6 +16,15 @@
   /* justify-content: space-between; */
   align-items: center;
   height: 100%;
+}
+.ul-names p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 2px;
 }
 .demo_container_u ul {
 
@@ -43,7 +52,7 @@
     /* margin-right: 20px; */
 }
 .nav-elements-span_sp:active {
-    color: #E02B45;
+    color: #081f87;
 }
 
 .demo_logo {
@@ -63,7 +72,7 @@
     font-size: 20px;
     line-height: 24px;
 
-    color: #E02B45;
+    color: #081f87;
 }
 
 .demo_menu-icon {
@@ -115,7 +124,7 @@
 }
 
 .nav-elements ul a.active {
-  color: #E02B45;
+  color: #081f87;
   font-weight: 500;
   position: relative;
 }
@@ -189,7 +198,7 @@
       position: absolute;
       right: 0;
       top: 60px;
-      background-color: #ffffffbf;
+      background-color: #e5ddf431;
       width: 0px;
       height: calc(100vh - 60px);
       transition: all 0.3s ease-in;

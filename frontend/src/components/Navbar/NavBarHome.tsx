@@ -22,10 +22,10 @@ const NavBarHome = () => {
 					</NavLink>
 					<span>
 						<NavLink
-							style={{ textDecoration: "none", color: "#e02b45" }}
+							style={{ textDecoration: "none", color: "#081f87" }}
 							to="/riders-dashboard"
 						>
-							Swift <br /> Rider
+							klaus <br /> Cabz
 						</NavLink>
 					</span>
 				</div>
@@ -33,27 +33,27 @@ const NavBarHome = () => {
 					<Hamburger style={{ fontSize: "40px" }} />
 				</div>
 				<div className={`nav-elements  ${showNavbar && "active"}`}>
-					<ul>
+					<ul className="ul-names"> 
 						<li>
 							<NavLink style={{ textDecoration: "none" }} to="/">
-								Home
+								<p>Home</p>
 							</NavLink>
 						</li>
 						<li>
-							<NavLink to="/about">About us</NavLink>
+							<NavLink to="/about"><p>About us</p></NavLink>
 						</li>
 						<li>
-							<NavLink to="/services">Services</NavLink>
+							<NavLink to="/services"><p>Services</p></NavLink>
 						</li>
 						<li style={{ width: "100px" }}>
-							<NavLink to="/contac-us">Contact Us</NavLink>
+							<NavLink to="/contac-us"><p>Contact Us</p></NavLink>
 						</li>
 						<li>
 							{/* <ReactSwitch checked={checked} onChange={handleChange} /> */}
 						</li>
 
 						<li className="li_moblile_s li_mobile_home">
-							<NavLink to="/login">Login</NavLink>
+							<NavLink to="/login"><p>Login</p></NavLink>
 						</li>
 					</ul>
 				</div>

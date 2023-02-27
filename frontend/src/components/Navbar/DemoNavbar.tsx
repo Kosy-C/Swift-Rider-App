@@ -41,7 +41,7 @@ const DemoNav = () => {
 						</NavLink>
 						<span>
 							<NavLink
-								style={{ textDecoration: "none", color: "#e02b45" }}
+								style={{ textDecoration: "none", color: "#081f87" }}
 								to="/user-dashboard"
 							>
 								Swift <br /> Rider
@@ -91,7 +91,7 @@ const DemoNav = () => {
 						</NavLink>
 						<span>
 							<NavLink
-								style={{ textDecoration: "none", color: "#e02b45" }}
+								style={{ textDecoration: "none", color: "#081f87" }}
 								to="/riders-dashboard"
 							>
 								Swift <br /> Rider
